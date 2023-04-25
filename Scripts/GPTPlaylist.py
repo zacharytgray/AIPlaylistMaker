@@ -1,8 +1,7 @@
 import openai
 import globals
-import keyboard
 model_engine = "text-davinci-003"
-openai.api_key = "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"
+openai.api_key = "YOUR_API_KEY"
 
 
 def main():
