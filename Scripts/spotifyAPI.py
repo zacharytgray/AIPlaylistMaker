@@ -1,11 +1,11 @@
 import spotipy
-import globals
+from Scripts import globals
 from spotipy.oauth2 import SpotifyOAuth
 
-CLIENT_ID = "3c90012dce084cfa8d37ad3967abe5a2"
-CLIENT_SECRET = "84842d963bcf497dae59981cb0380e47"
-REDIRECT_URI = "http://localhost:8000/callback"
-SCOPE = "user-library-read user-library-modify playlist-read-private playlist-modify-private playlist-modify-public"
+CLIENT_ID = "YOUR_CLIENT_ID"
+CLIENT_SECRET = "YOUR_CLIENT_SECRET"
+REDIRECT_URI = "REDIRECT_URL"
+SCOPE = "YOUR_SCOPE"
 # EXAMPLE_SCOPE = SCOPE = "user-library-read user-library-modify playlist-read-private playlist-modify-private playlist-modify-public"
 
 

@@ -1,6 +1,4 @@
-import globals
-import spotifyAPI
-import GPTPlaylist
+from Scripts import globals, GPTPlaylist, spotifyAPI
 
 if __name__ == "__main__": 
     globals.initialize() 
