@@ -1,6 +1,6 @@
 import openai
 model_engine = "text-davinci-003"
-openai.api_key = "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"
+openai.api_key = "YOUR_API_KEY"
 
 def main():
     exit_words = ("q","Q","quit","QUIT","EXIT")
