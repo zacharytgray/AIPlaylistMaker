@@ -4,7 +4,7 @@ openai.api_key = "YOUR_API_KEY"
 
 def main():
     exit_words = ("q","Q","quit","QUIT","EXIT")
-    ("Type q, Q, quit, QUIT or EXIT to cancel.")
+    print("Type q, Q, quit, QUIT or EXIT to cancel.")
     try:
         while True:
             query = input("Talk to ChatGPT: ")

@@ -1,5 +1,5 @@
 import openai
-import globals
+from Scripts import globals
 model_engine = "text-davinci-003"
 openai.api_key = "YOUR_API_KEY"
 
