@@ -4,3 +4,5 @@ A ChatGPT-powered Spotify playlist maker. Simply give it a playlist name and any
 Required Python 3 Libraries: 
 - Spotipy ("pip3 install spotipy")
 - Openai ("pip3 install openai")
+- base64
+- PIL
