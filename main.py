@@ -1,10 +1,11 @@
 from Scripts import globals, GPTPlaylist, spotifyAPI
 
-if __name__ == "__main__": 
-    globals.initialize() 
+
+def main():
+    globals.initialize()
     GPTPlaylist.main()
     spotifyAPI.main()
-    print(globals.songList)
-    
 
 
+if __name__ == "__main__":
+    main()
